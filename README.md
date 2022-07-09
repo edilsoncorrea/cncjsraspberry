@@ -1,4 +1,5 @@
 ## Tutorial sobre como instalar o CNCJS no Raspberry
+require relative "helper"
 
 >`curl -sL https://deb.nodesource.com/setup_10.x | sudo -E bash -`
 >
