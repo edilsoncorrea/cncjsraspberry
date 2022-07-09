@@ -1,5 +1,6 @@
 ## Tutorial sobre como instalar o CNCJS no Raspberry
 
+Este tutorial espera que o Raspberry já esteja com uma versão do Linux instalada e funcionando. Neste link [aqui] você pode verificar um tutorial sobre como instalar o Raspbian.
 
 [Tutorial muito bom sobre a instalação do CNCJS no Raspberry](https://github.com/cncjs/cncjs/wiki/Setup-Guide:-Raspberry-Pi-%7C-Install-Node.js-via-Package-Manager-*(Recommended)*) . Este tutorial foi montado quase que inteiramente a partir dele. Referência: Mitch Bradley edited this page on 6 Feb 2021 · 21 revisions
 
@@ -34,5 +35,15 @@ Algo parecido com isso deve ser mostrado no terminal:
 Isso significa que o CNCJs está rodando e pronto para aceitar conexões a partir do navegador. A porta padrão é 8000. Tente acessar num navegador com o ip do raspberry. Algo parecido com "http://IP_DO_RASPBERRY:8000".
 
 Como o CNCJs ainda não está sendo executado automaticamente como um serviço no Linux, você pode parar o que está sendo executado digitando ^C (Ctrl-C) no terminal.
+
+
+### Autostarting the server
+
+To make the CNCjs server start automatically, enter this verbatim at the terminal prompt:
+
+```
+((crontab -l || true) | grep -v cncjs; echo "@reboot $(which cncjs) >>$HOME/cncjs.log 2>&1") | crontab -
+```
+If it says "no crontab for pi", don't worry about it.
 
 
