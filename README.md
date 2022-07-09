@@ -46,4 +46,11 @@ Para fazer o CNCJs iniciar automaticamente, entre esse código no prompt do term
 ```
 Ele vai dizer que não há nenhum crontab para pi ("no crontab for pi"). Não se preocupe.
 
-Este código parece bem complicado, mas caso esteja interessado, dê uma olhada no tutorial mencionado acima no tópico ["Autostarting the server"](https://github.com/cncjs/cncjs/wiki/Setup-Guide:-Raspberry-Pi-%7C-Install-Node.js-via-Package-Manager-*(Recommended)*). Lá há alguns uma explicação detalahada sobre como este código funciona. 
+Este código parece bem complicado, mas caso esteja interessado, dê uma olhada no tutorial mencionado acima no tópico ["Autostarting the server"](https://github.com/cncjs/cncjs/wiki/Setup-Guide:-Raspberry-Pi-%7C-Install-Node.js-via-Package-Manager-*(Recommended)*). Lá há uma explicação detalahada sobre como este código funciona. 
+
+Se você quiser desligar o auto-start, você pode entrar isto no prompt do terminal:
+
+```
+crontab -l | grep -v cncjs | crontab -
+```
+Se você estiver executando o Raspberry com uma tela e quiser usar o CNCJs num navegador local, dê uma olhada no tópico ["Autostarting the browser"](https://github.com/cncjs/cncjs/wiki/Setup-Guide:-Raspberry-Pi-%7C-Install-Node.js-via-Package-Manager-*(Recommended)*).
