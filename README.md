@@ -15,7 +15,7 @@ Ignore os avisos dos passos do instalador do npm.  Segundo o autor do texto, o n
 sudo npm install -g cncjs@latest --unsafe-perm
 ```  
 
-Se os comandos acima gerarem algum erro, você pode dar uma olhada [aqui:](https://github.com/cncjs/cncjs/wiki/Setup-Guide:-Raspberry-Pi-%7C-Installation-Problems-and-Solutions) para possíveis soluções.
+Se os comandos acima gerarem algum erro, você pode dar uma olhada [aqui](https://github.com/cncjs/cncjs/wiki/Setup-Guide:-Raspberry-Pi-%7C-Installation-Problems-and-Solutions) para possíveis soluções.
 
 ### Testando a instalação
 
