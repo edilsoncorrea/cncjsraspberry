@@ -1,6 +1,6 @@
 ## Tutorial sobre como instalar o CNCJS no Raspberry
 
-Este tutorial espera que o Raspberry já esteja com uma versão do Linux instalada e funcionando. Neste link [aqui] você pode verificar um tutorial sobre como instalar o Raspbian.
+Este tutorial espera que o Raspberry já esteja com uma versão do Linux instalada e funcionando. Neste link [aqui](https://github.com/edilsoncorrea/instalarraspbian) você pode verificar um tutorial sobre como instalar o Raspbian.
 
 [Tutorial muito bom sobre a instalação do CNCJS no Raspberry](https://github.com/cncjs/cncjs/wiki/Setup-Guide:-Raspberry-Pi-%7C-Install-Node.js-via-Package-Manager-*(Recommended)*) . Este tutorial corrente foi montado quase que inteiramente a partir dele. Referência: Mitch Bradley edited this page on 6 Feb 2021 · 21 revisions
 
