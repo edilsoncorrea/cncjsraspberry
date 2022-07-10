@@ -55,3 +55,9 @@ Se você quiser desligar o auto-start, você pode entrar isto no prompt do termi
 crontab -l | grep -v cncjs | crontab -
 ```
 Se você estiver executando o Raspberry com uma tela e quiser usar o CNCJs num navegador local, dê uma olhada no tópico ["Autostarting the browser"](https://github.com/cncjs/cncjs/wiki/Setup-Guide:-Raspberry-Pi-%7C-Install-Node.js-via-Package-Manager-*(Recommended)*).
+
+
+### Como instalar e usar a extensão de auto nivelamento no CNCJs
+
+Entensão para ser utilizada para criação de placas de circuito impresso. Atualmente essa extensão é suportada para o GRBL: 
+[Auto-leveling extension for CNCjs](https://github.com/kreso-t/cncjs-kt-ext)
