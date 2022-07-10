@@ -29,9 +29,9 @@ cncjs
 ```
 
 Algo parecido com isso deve ser mostrado no terminal:
->2019-10-04T22:45:16.701Z - info init Loading configuration from "/home/pi/.cncrc"
+>`2019-10-04T22:45:16.701Z - info init Loading configuration from "/home/pi/.cncrc"`
 >
->2019-10-04T22:45:17.931Z - info init Starting the server at http://127.0.1.1:8000
+>`2019-10-04T22:45:17.931Z - info init Starting the server at http://127.0.1.1:8000`
 
 Isso significa que o CNCJs está rodando e pronto para aceitar conexões a partir do navegador. A porta padrão é 8000. Tente acessar num navegador com o ip do raspberry. Algo parecido com "http://IP_DO_RASPBERRY:8000".
 
