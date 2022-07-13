@@ -60,3 +60,6 @@ Se você estiver executando o Raspberry com uma tela e quiser usar o CNCJs num n
 
 Entensão para ser utilizada para criação de placas de circuito impresso. Atualmente essa extensão é suportada para o GRBL: 
 [Auto-leveling extension for CNCjs](https://github.com/kreso-t/cncjs-kt-ext)
+
+### Como criar uma página simplificada de 240x240
+https://github.com/cncjs/cncjs-pendant-tinyweb
