@@ -62,5 +62,4 @@ Entensão para ser utilizada para criação de placas de circuito impresso. Atua
 [Auto-leveling extension for CNCjs](https://github.com/kreso-t/cncjs-kt-ext)
 
 ### Como criar uma página simplificada de 240x240
-[cncjs-pendant-tinyweb](https://github.com/cncjs/cncjs-pendant-tinyweb)
-![Teste!](tinyweb-axes.png)
+[![cncjs-pendant-tinyweb](tinyweb-axes.png)](https://github.com/cncjs/cncjs-pendant-tinyweb)
