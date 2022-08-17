@@ -62,7 +62,7 @@ Extensão para ser utilizada para criação de placas de circuito impresso. Atua
 [Auto-leveling extension for CNCjs](https://github.com/kreso-t/cncjs-kt-ext)
 
 ### Como criar uma página simplificada de 240x240
-[CNCJs Pendant Tinyweb](https://github.com/cncjs/cncjs-pendant-tinyweb)
+[CNCJs Pendant Tinyweb](https://github.com/edilsoncorrea/cncjs-pendant-tinyweb)
 
 
 [![](tinyweb-axes.png)](#)
