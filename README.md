@@ -24,6 +24,8 @@ sudo npm install -g cncjs@latest --unsafe-perm
 
 Se os comandos acima gerarem algum erro, você pode dar uma olhada [aqui](https://github.com/cncjs/cncjs/wiki/Setup-Guide:-Raspberry-Pi-%7C-Installation-Problems-and-Solutions) para possíveis soluções.
 
+[Para Instalação de versões específicas do Nobejs](https://www.makersupplies.sg/blogs/tutorials/how-to-install-node-js-and-npm-on-the-raspberry-pi)
+
 ### Testando a instalação
 
 Neste ponto você pode realizar um teste rápido para ver se o cncjs está funcionando. Entre isso no prompt do terminal:
